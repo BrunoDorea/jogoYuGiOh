@@ -8,12 +8,16 @@
     <link rel='shortcut icon' href='./src/assets/icons/card-back.png' type='image/png' />
     <!-- CSS -->
     <link rel='stylesheet' href='./src/css/reset.css' />
+    <link rel='stylesheet' href='./src/css/button.css' /> <!-- Framework -->
+    <link rel='stylesheet' href='./src/css/containers_and_frames.css' /> <!-- Framework -->
     <link rel='stylesheet' href='./src/css/style.css' />
     <!-- JAVASCRIPT -->
     <script defer src='./src/js/engine.js'></script>
     <title>Yu-Gi-Oh! | Bruno Dórea</title>
     <!-- GOOGLE FONTS -->
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!-- GOOGLE TAG (gtag.js) -->
     <script async src='https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD' ></script>
     <script>
@@ -26,5 +30,33 @@
     </script>
   </head>
   <body>
+
+    <div class="bg-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/assets/video/yugi.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="container">
+      <div class="container__left framed-golden-2">
+
+        <div class="score_box frame">
+          <span id="score_points">Win: 0 | Lose: 0</span>
+        </div>
+        <div class="menu_avatar">
+          <img id="card-image">
+        </div>
+        <div class="card_details frame">
+          <p id="card-name">a</p>
+          <p id="card-type">a</p>
+        </div>
+
+      </div>
+
+      <div class="container__right">
+        <div class="card-box__container"></div>
+      </div>
+    </div>
+
   </body>
 </html>

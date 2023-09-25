@@ -1,21 +1,22 @@
-# Readme Template
+# Yu-Gi-Oh! - Jo-Ken-Po
 
-[![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc.svg)](https://wakatime.com/@68660678-6b86-4b78-98df-f5f41a37e1bc)
+[![wakatime](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/a06b572c-1916-4320-8fed-554916416096.svg)](https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/a06b572c-1916-4320-8fed-554916416096)
 
 [![GitHub Pages](https://img.shields.io/static/v1?style=for-the-badge&message=GitHub+Pages&color=222222&logo=GitHub+Pages&logoColor=FFFFFF&label=)](https://brunodorea.github.io/)
-[![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=000000&logo=Vercel&logoColor=FFFFFF&label=)](#)
 
 ## 💼 Sobre o projeto
 
-Este repositório foi criado para ser o modelo de template a ser utilizado nos meus projetos.
+Este repositório foi criado para o desafio de projeto do Bootcamp da Potência Tech iFood - Desenvolvimento de Jogos.
 
 ## ✅ Objetivo
 
-Modelo de readme para ser utilizado nos projetos do github.
+Criação de um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS.
 
 ## 💻 Tecnologias e Ferramentas
 
-![Markdown](https://img.shields.io/static/v1?style=for-the-badge&message=Markdown&color=000000&logo=Markdown&logoColor=FFFFFF&label=)
+![HTML5](https://img.shields.io/static/v1?style=for-the-badge&message=HTML5&color=E34F26&logo=HTML5&logoColor=FFFFFF&label=)
+![CSS3](https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=)
+![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
 
 ## 👨🏽‍💻 Autor
 

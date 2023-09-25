@@ -8,7 +8,7 @@
     <link rel='shortcut icon' href='./src/assets/icons/card-back.png' type='image/png' />
     <!-- CSS -->
     <link rel='stylesheet' href='./src/css/reset.css' />
-    <link rel='stylesheet' href='./src/css/button.css' /> <!-- Framework -->
+    <link rel='stylesheet' href='./src/css/buttons.css' /> <!-- Framework -->
     <link rel='stylesheet' href='./src/css/containers_and_frames.css' /> <!-- Framework -->
     <link rel='stylesheet' href='./src/css/style.css' />
     <!-- JAVASCRIPT -->
@@ -54,7 +54,29 @@
       </div>
 
       <div class="container__right">
-        <div class="card-box__container"></div>
+        <div class="card-box__container">
+
+          <div class="card-box framed" id="computer-cards"></div>
+
+          <div class="card-versus__container">
+            <div class="versus-top">
+              <div class="card-infield">
+                <img id="player-field-card" height="180px" width="125px"/>
+              </div>
+              <img src="./src/assets/icons/millenium2.png" height="100px"/>
+              <div class="card-infield">
+                <img id="computer-field-card" height="180px" width="125px"/>
+              </div>
+            </div>
+
+            <div class="versus-bottom">
+              <button id="next-duel" class="rpgui-button" onclick="resetDuel">GANHOU</button>
+            </div>
+          </div>
+
+          <div class="card-box framed" id="player-cards"></div>
+
+        </div>
       </div>
     </div>
 

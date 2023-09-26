@@ -44,11 +44,11 @@
           <span id="score_points">Win: 0 | Lose: 0</span>
         </div>
         <div class="menu_avatar">
-          <img id="card-image">
+          <img id="card-image" />
         </div>
         <div class="card_details frame">
-          <p id="card-name">a</p>
-          <p id="card-type">a</p>
+          <p id="card-name">Selecione</p>
+          <p id="card-type">uma carta</p>
         </div>
 
       </div>
@@ -58,19 +58,19 @@
 
           <div class="card-box framed" id="computer-cards"></div>
 
-          <div class="card-versus__container">
+          <div class="card-versus__container debug">
             <div class="versus-top">
               <div class="card-infield">
-                <img id="player-field-card" height="180px" width="125px"/>
+                <img src="./src/assets/icons/card-back.png" id="player-field-card" height="180px" width="125px"/>
               </div>
               <img src="./src/assets/icons/millenium2.png" height="100px"/>
               <div class="card-infield">
-                <img id="computer-field-card" height="180px" width="125px"/>
+                <img src="./src/assets/icons/card-back.png" id="computer-field-card" height="180px" width="125px"/>
               </div>
             </div>
 
             <div class="versus-bottom">
-              <button id="next-duel" class="rpgui-button" onclick="resetDuel">GANHOU</button>
+              <button id="next-duel" class="rpgui-button" onclick="resetDuel()">GANHOU</button>
             </div>
           </div>
 

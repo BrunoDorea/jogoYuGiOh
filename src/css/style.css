@@ -119,10 +119,11 @@
 }
 
 .card-infield {
-    /* border: 1px solid #fff; */
-    /* border-radius: 8px; */
+    border: 1px solid #fff;
+    border-radius: 8px;
     height: 11.2rem;
     width: 8rem;
+    overflow: hidden;
 }
 
 #next-duel {
